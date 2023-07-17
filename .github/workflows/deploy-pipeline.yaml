@@ -76,7 +76,7 @@ jobs:
         run: |
           aws lambda update-function-code \
            --function-name github-actions-lambda-function \
-           --s3-bucket content-github-actions-deep-dive-lesson \
+           --s3-bucket github-actions-artifact-bucket-swo \
            --s3-key ${{ github.repository }}/${{ github.sha }}.zip \
            --publish
       
