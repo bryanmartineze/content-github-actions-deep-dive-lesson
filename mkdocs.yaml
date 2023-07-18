@@ -1,4 +1,4 @@
-site_name: Funtcion Documentation
+site_name: Function Documentation
 nav:
   - Home: index.md
   - About: about.md
