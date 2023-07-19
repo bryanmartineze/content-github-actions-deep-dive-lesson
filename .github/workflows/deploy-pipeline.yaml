@@ -1,6 +1,6 @@
 name: Deploy Lambda Function
 on: 
-  workflow_dispatch
+  workflow_dispatch:
 
 permissions:
   id-token: write
